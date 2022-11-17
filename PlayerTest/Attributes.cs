@@ -140,7 +140,7 @@ namespace PlayerTest
         }
 
         //Updates a specific stat by name with absolute value
-        public void UpdateStat(string attributeName, int attributeValue)
+        public void SetStat(string attributeName, int attributeValue)
         {
             //First check that the requested attribute name exists
             if (_statsDictionary.ContainsKey(attributeName))

@@ -57,7 +57,7 @@ namespace PlayerTest
         //No methods for GetCoins and GetUsername as they are already direct native properties
 
         //Set coins to specific amount
-        public void UpdateCoins(int value)
+        public void SetCoins(int value)
         {
             //Set the coin to desired value
             Coins = value;
@@ -117,10 +117,10 @@ namespace PlayerTest
         }
 
         //Updates a specific stat by name with absolute value
-        public void UpdateStat(string attributeName, int attributeValue)
+        public void SetStat(string attributeName, int attributeValue)
         {
             //Call UpdateStat in Attribute class
-            _stats.UpdateStat(attributeName, attributeValue);
+            _stats.SetStat(attributeName, attributeValue);
         }
 
         //Updates a specific stat by name by increment

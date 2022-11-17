@@ -52,8 +52,8 @@ namespace PlayerTest
             Console.WriteLine(playerTwo.ToString());
 
             Console.WriteLine("Set PlayerTwo's coins to 3000 and Dexterity to 10 by absolute value");
-            playerTwo.UpdateCoins(3000);
-            playerTwo.UpdateStat("Dexterity", 10);
+            playerTwo.SetCoins(3000);
+            playerTwo.SetStat("Dexterity", 10);
 
             Console.WriteLine("Add PlayerThree as friend");
             playerTwo.AddFriend("PlayerThree");
@@ -71,7 +71,7 @@ namespace PlayerTest
             Console.WriteLine("Now to set illegal values for PlayerThree");
             try
             {
-                playerThree.UpdateStat("Endurance", 51);
+                playerThree.SetStat("Endurance", 51);
             }
             catch(Exception e)
             {
