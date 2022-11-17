@@ -19,25 +19,25 @@ Testing:
 A simple set of tests were also written in the main method to demonstrate that the code appears be working as intended, but it is by no means an exhaustive test, nor is it the way I would implement tests in a real system, it is only meant as a visual demonstration.
 
 Public properties/methods for external calls:
-  Player Class:
-  - Coins
-  - Username
-  - SetCoins()
-  - IncrementCoins()
-  - GetFriends()
-  - AddFriend()
-  - GetStats()
-  - GetStatByName()
-  - SetStat()
-  - IncrementStat
-  - ToString()
-  Attributes Class:
-  - Strength
-  - Magic
-  - Dexterity
-  - Endurance
-  - GetAllStats()
-  - GetStatByName()
-  - SetStat()
-  - IncrementStat
-  - ToString()
+  - Player Class:
+    - Coins
+    - Username
+    - SetCoins()
+    - IncrementCoins()
+    - GetFriends()
+    - AddFriend()
+    - GetStats()
+    - GetStatByName()
+    - SetStat()
+    - IncrementStat
+    - ToString()
+  - Attributes Class:
+    - Strength
+    - Magic
+    - Dexterity
+    - Endurance
+    - GetAllStats()
+    - GetStatByName()
+    - SetStat()
+    - IncrementStat
+    - ToString()
