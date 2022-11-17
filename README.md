@@ -29,7 +29,7 @@ Public properties/methods for external calls:
     - GetStats()
     - GetStatByName()
     - SetStat()
-    - IncrementStat
+    - IncrementStat()
     - ToString()
   - Attributes Class:
     - Strength
@@ -39,5 +39,5 @@ Public properties/methods for external calls:
     - GetAllStats()
     - GetStatByName()
     - SetStat()
-    - IncrementStat
+    - IncrementStat()
     - ToString()
