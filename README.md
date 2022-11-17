@@ -15,7 +15,7 @@ Design decisions:
 - Increment methods returns the new value to the user, as they may be interested in knowing
 - An overload constructor method was added to the Attributes class to easily generate stats objects with "template" values, such as if a user started a new character and chose a pre-defined class (eg. Wizard).
 
-ps. Originally considered separating out a Currency class as well in case more than 1 currency exists in the game in the future, but decided against it as it is probably outside the scope of this project
+ps. Originally considered separating out a Currency and Wallet class as well in case more than 1 currency exists in the game in the future, but decided against it as it is probably outside the scope of this project
 
 Testing:
 A simple set of tests were also written in the main method to demonstrate that the code appears be working as intended, but it is by no means an exhaustive test, nor is it the way I would implement tests in a real system, it is only meant as a visual demonstration.
